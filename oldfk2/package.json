@@ -1,0 +1,24 @@
+{
+  "name": "studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirivus/studio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirivus/studio/issues"
+  },
+  "homepage": "https://github.com/sirivus/studio#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
